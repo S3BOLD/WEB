@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(#d60a0a, #000000);
+    color: rgb(204, 202, 202);
+    text-align: center;
+    padding: 20px;
+    
+}
+header p{
+    color: rgb(199, 197, 197);
+}
+
+/* Menu Navegação */
+nav {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0)
+}
+
+/* Layout principal */
+main {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Seção principal */
+section{
+    flex: 3;
+}
+
+article{
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Botao */
+.botao {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color: #0056b3;
+}
+
+/* Barra lateral aside*/
+aside {
+
+    background: linear-gradient(to right ,#d60a0a, #000000);
+    text-align: center;
+
+}
+aside p{
+    color: #ccc;
+    font-size:x-large
+}
+
+h2{
+    color: #333;
+}
+
+p {
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Rodape */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+
+
+
